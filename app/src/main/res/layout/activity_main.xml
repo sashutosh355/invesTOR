@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="73dp"
+        android:background="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/investor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Welcome!"
+        android:textColor="#001253"
+        android:textSize="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to the future of DiFi Banking"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"></TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="415dp"
+        android:background="@drawable/splashbackground"
+        app:layout_constraintBottom_toBottomOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/getStarted"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginEnd="91dp"
+        android:background="@drawable/buttonbackground"
+        android:gravity="center"
+        android:text="Let's get Started"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="550dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="91dp"></TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>
